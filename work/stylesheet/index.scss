@@ -1,0 +1,315 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration:none;
+	list-style: none;
+}
+body {
+    margin: 0;
+    line-height: 1.2;
+    background-color:white;
+	font-size: 14px;
+	position: relative;
+}
+div {
+    display: block;
+}
+#log{
+	float: left;
+	margin-left: 110px;
+}
+#top1{
+	float: left;
+	margin-top: 50px;
+	margin-left: 72px;
+}
+#top1 input{
+	width: 380px;
+	height: 37px;
+	padding-right: 0;
+	margin-right: 0;
+	border: 1px solid red;
+}
+#top1 button{
+	height: 40px;
+	padding-left: 0;
+	margin-left: 0;
+	border: 0;
+	background: red;
+}
+#top2{
+	margin-top: 8px;
+}
+#top2 a{
+	font-size: 14px;
+	color: black;
+}
+#top3 img{
+	width: 206px;
+	height: 72px;
+	float: right;
+	margin-right: 102px;
+	margin-top: 30px;
+}
+// Home page
+#first{
+	height: 36px;
+	width: 100%;
+	background:white;
+	display: block;
+	float: left;
+	display: flex;
+	position: relative;
+}
+#first .navigation{
+	width: 90px;
+	margin-left: 110px;
+	line-height: 36px;
+	font-size: 14px;
+	position: relative;
+	display: block;
+    color: #333;
+    // text-align: center;
+	white-space: nowrap;
+	color: red;
+}
+#first .price{
+	width: 90px;
+	height: 36px;
+}
+#first .head{
+	width: 93px;
+	height: 36px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
+.price div{
+	width: 93px;
+	height: 36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+	float: left;
+	z-index:99;
+	background: white;
+}
+.price p{
+	margin: 0 auto;
+	text-align: center;
+}
+#first .navigation1{
+	width: 90px;
+	margin-left: 1px;
+	line-height: 36px;
+	font-size: 14px;
+	position: relative;
+	display: block;
+    color: #333;
+    // text-align: center;
+	white-space: nowrap;
+	color: black;
+}
+#head5{
+	// margin-left: 100px;
+	position: relative;
+	left: 100px;
+}
+.son{
+	position: relative;
+	z-index: 99;
+}
+.son1{
+	position: relative;
+	z-index: 99;
+}
+.son2{
+	position: relative;
+	z-index: 99;
+}
+.son3{
+	position: relative;
+	z-index: 99;
+}
+.son4{
+	position: relative;
+	z-index: 99;
+}
+.son5{
+	position: relative;
+	left: 100px;
+	z-index: 99;
+}
+.navigation2{
+	width: 90px;
+	line-height: 36px;
+	font-size: 14px;
+	position: relative;
+	margin-left: 100px;
+	display: block;
+    color: #333;
+    // text-align: center;
+	white-space: nowrap;
+	color: black;
+}
+
+//  shuffling
+ #play li {
+	list-style: none;
+  }
+
+  #play img {
+	border: none;
+  }
+
+  #play body {
+	background: #ecfaff;
+  }
+
+  .play {
+	overflow: hidden;
+	width: 900px;
+	height: 400px;
+	position: relative;
+	margin-left: 90px;
+  }
+
+  #play ol {
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	z-index: 2;
+  }
+
+  #play ol li {
+	float: left;
+	margin-right: 2px;
+	display: inline;
+	cursor: pointer;
+	background: #fcf2cf;
+	border: 1px solid #f47500;
+	padding: 2px 6px;
+	color: #d94b01;
+	font-family: arial;
+	font-size: 12px;
+  }
+
+  #play .active {
+	padding: 3px 8px;
+	font-weight: bold;
+	color: #ffffff;
+	background: #ffb442;
+	position: relative;
+	bottom: 2px;
+  }
+
+  #play ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+  }
+
+  #play ul li {
+	width: 900px;
+	height: 400px;
+	float: left;
+  }
+
+  #play ul img {
+	float: left;
+	width: 900px;
+	height: 400px;
+	margin: 0 auto;
+  }
+// commodity
+#commodity{
+	width: 900px;
+	height: 350px;
+	background: white;
+	display: block;
+	float: left;
+	margin-left: 90px;
+	margin-top: 8px;
+}
+#commodity .commodity1{
+	height: 50px;
+	width: 900px;
+	background: #f5f5f5;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	border-bottom: 1px solid black;
+}
+#commodity .commodity1 a {
+	color: black;
+}
+.commodity2{
+	font-size: 22px;
+	color: black;
+	width: 85px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.commodity3{
+	margin-left: 26px;
+}
+#commodity .commodity1 .commodity3 a{
+	color: red;
+}
+.commodity4{
+	margin-left: 26px;
+}
+.commodity5{
+	margin-left: 26px;
+}
+.commodity6{
+	margin-left: 26px;
+}
+.commodity7{
+	margin-left: 26px;
+}
+.commodity8{
+	margin-left: 405px;
+	font-size: 13px;
+}
+// figure
+.figure{
+	display: flex;
+}
+.figure img{
+	padding: 10px;
+}
+.figure a{
+	font-size: 11px;
+	color: black;
+}
+.Package{
+	color: red;
+}
